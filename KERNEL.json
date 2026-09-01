@@ -1,0 +1,82 @@
+{
+  "lang": "lit",
+  "hdr": "L3",
+  "glyphs": {
+    "cap": "⚙",
+    "copy": "⎘",
+    "do": "▶",
+    "drop": "⤵",
+    "dup": "⧉",
+    "eq": "≡",
+    "fail": "⊥",
+    "got": "◊",
+    "have": "∃",
+    "hear": "♪",
+    "if": "⊃",
+    "last": "⊣",
+    "light": "☀",
+    "mark": "†",
+    "near": "∼",
+    "need": "¿",
+    "next": "→",
+    "pred": "‡",
+    "push": "⊞",
+    "put": "⊡",
+    "quote": "⌜",
+    "read": "⊏",
+    "rep": "⟳",
+    "report": "☰",
+    "run": "⏩",
+    "say": "⊠",
+    "seal": "▣",
+    "see": "◐",
+    "seq": "∘",
+    "swap": "⇄",
+    "tick": "⌇",
+    "write": "⊐"
+  },
+  "feat": {
+    "ch": {
+      "act": "⚒",
+      "pic": "▧",
+      "sense": "◉",
+      "sound": "♫",
+      "text": "¶"
+    },
+    "slot": {
+      "dark": "░",
+      "lit": "▓"
+    },
+    "evd": {
+      "guess": "◌",
+      "hear": "◈",
+      "seal": "◆",
+      "see": "◎",
+      "sense": "◔",
+      "told": "◇"
+    },
+    "who": {
+      "grok": "♖",
+      "joseph": "♔",
+      "unknown": "♘",
+      "vic": "♕",
+      "vicky": "♗"
+    },
+    "ill": {
+      "ask": "✗",
+      "do": "✖",
+      "pred": "✦",
+      "say": "✚",
+      "seal": "★"
+    },
+    "asp": {
+      "done": "●",
+      "open": "○"
+    }
+  },
+  "string": "‹ ›",
+  "block": "〖 〗",
+  "postfix": true,
+  "english": "bootstrap only",
+  "g": "six silent determinatives, not arabic digits"
+}
