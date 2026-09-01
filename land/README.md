@@ -14,4 +14,4 @@ python lit.py land/fract.litg
 
 **fract** — nested quotes that tick. Same op, smaller. That is composition without a planner.
 
-Mouths may emit prefix. `work/from_vicky.litg` is a mouth that the runner **refuses**. The postfix cousin in `work/vicky_postfix.litg` runs. Mouths may lie. The runner does not.
+Mouths may emit prefix. `land/from_vicky.litg` is a mouth the runner **refuses**. `land/vicky_postfix.litg` runs. Mouths may lie. The runner does not.

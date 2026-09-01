@@ -2354,6 +2354,8 @@ def selftest() -> int:
             raise RuntimeError("thrust miss")
         ok("vicky-wire-truth")
     mouth = WORK / "from_vicky.litg"
+    if not mouth.is_file() and (BOX / "land" / "from_vicky.litg").is_file():
+        mouth.write_text((BOX / "land" / "from_vicky.litg").read_text(encoding="utf-8"), encoding="utf-8")
     if not mouth.is_file():
         raise RuntimeError("from_vicky.litg miss")
     raw_mouth = mouth.read_text(encoding="utf-8")
@@ -2362,6 +2364,8 @@ def selftest() -> int:
     _expect_fail(lambda: run_file(mouth), "prefix not postfix")
     ok("vicky-prefix-not-program")
     post = WORK / "vicky_postfix.litg"
+    if not post.is_file() and (BOX / "land" / "vicky_postfix.litg").is_file():
+        post.write_text((BOX / "land" / "vicky_postfix.litg").read_text(encoding="utf-8"), encoding="utf-8")
     if not post.is_file():
         raise RuntimeError("vicky_postfix.litg miss")
     vm = run_file(post)
@@ -2550,6 +2554,8 @@ def selftest() -> int:
         raise RuntimeError("run litg miss")
     ok("run-glyph-file")
     langp = WORK / "lang.litg"
+    if not langp.is_file() and (BOX / "land" / "lang.litg").is_file():
+        langp.write_text((BOX / "land" / "lang.litg").read_text(encoding="utf-8"), encoding="utf-8")
     if not langp.is_file():
         raise RuntimeError("lang.litg miss")
     w = langp.read_text(encoding="utf-8")
@@ -2612,6 +2618,8 @@ def selftest() -> int:
         raise RuntimeError("dirt still lit " + spine)
     ok("lang-on-dirty-stream")
     fractp = WORK / "fract.litg"
+    if not fractp.is_file() and (BOX / "land" / "fract.litg").is_file():
+        fractp.write_text((BOX / "land" / "fract.litg").read_text(encoding="utf-8"), encoding="utf-8")
     if not fractp.is_file():
         raise RuntimeError("fract.litg miss")
     fw = fractp.read_text(encoding="utf-8")
